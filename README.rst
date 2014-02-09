@@ -1,5 +1,6 @@
-说明
-====
+个人独立博客
+############
 
-这是我的个人博客 http://seisman.info 的源码。
-
+:网址: http://seisman.info
+:引擎: `Pelican <https://github.com/getpelican/pelican>`_
+:主题: `Elegant <https://github.com/talha131/pelican-elegant>`_
