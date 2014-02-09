@@ -1,0 +1,5 @@
+# output directory
+output
+
+# Python compiled files
+*.pyc
