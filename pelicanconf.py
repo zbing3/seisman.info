@@ -158,3 +158,8 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
+
+
+## Elegant Theme
+RECENT_ARTICLES_COUNT = 20
+
