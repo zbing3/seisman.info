@@ -38,7 +38,6 @@ ARTICLE_EXCLUDES = ('pages',)
 OUTPUT_SOURCES = False
 OUTPUT_SOURCES_EXTENSION = '.text'
 RELATIVE_URLS = False
-PLUGINS = []
 SITENAME = u'SeisMan'
 SITEURL = ''
 TEMPLATE_PAGES = None
@@ -134,3 +133,28 @@ THEME = "themes/Elegant_SeisMan"
 THEME_STATIC_DIR = 'theme'
 THEME_STATIC_PATHS = ['static']
 CSS_FILE = 'main.css'
+
+###########################################################
+##							Plugins						 ##
+###########################################################
+PLUGIN_PATH = 'plugins'
+PLUGINS = [
+	'sitemap'
+]
+
+###########################################################
+##					Plugin: Sitemap						 ##
+###########################################################
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.7,
+        'indexes': 0.5,
+        'pages': 0.3
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
