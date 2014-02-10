@@ -127,7 +127,7 @@ REVERSE_CATEGORY_ORDER = False
 ###########################################################
 ##						Themes							 ##
 ###########################################################
-THEME = "themes/Elegant"
+THEME = "themes/Elegant_SeisMan"
 THEME_STATIC_DIR = 'theme'
 THEME_STATIC_PATHS = ['static']
 CSS_FILE = 'main.css'
