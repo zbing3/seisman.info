@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 ###########################################################
-## 						Basic settings 			  		 ##
+##                     Basic settings                    ##
 ###########################################################
 AUTHOR = u'SeisMan'
 DATE_FORMATS = {
@@ -57,7 +57,7 @@ STATIC_PATHS = [
 ]
 
 ###########################################################
-##					URL settings					 	 ##
+##                     URL settings                      ##
 ###########################################################
 ARTICLE_URL = '{slug}.html'
 ARTICLE_SAVE_AS = '{slug}.html'
@@ -84,7 +84,7 @@ DAY_ARCHIVE_SAVE_AS = False
 SLUG_SUBSTITUTIONS = ()
 
 ###########################################################
-##					Feed Settings						 ##
+##                       Feed Settings                   ##
 ###########################################################
 # Feed generation is usually not desired when developing
 FEED_DOMAIN = None
@@ -99,7 +99,7 @@ TAG_FEED_RSS = None
 FEED_MAX_ITEMS = ''
 
 ###########################################################
-##					Pagination							 ##
+##                       Pagination                      ##
 ###########################################################
 DEFAULT_ORPHANS = 0 
 DEFAULT_PAGINATION = 10
@@ -108,26 +108,26 @@ PAGINATION_PATTERNS = [
 ]
 
 ###########################################################
-##					Tag Cloud							 ##
+##                         Tag Cloud                     ##
 ###########################################################
 TAG_CLOUD_STEPS = 4
 TAG_CLOUD_MAX_ITEMS = 100
 
 ###########################################################
-##						Translations					 ##
+##                   Translations                        ##
 ###########################################################
 DEFAULT_LANG = 'zh'
 TRANSLATION_FEED_ATOM = 'feeds/all-%s.atom.xml'
 TRANSLATION_FEED_RSS = None
 
 ###########################################################
-##					Ordering content 					 ##
+##                      Ordering content                 ##
 ###########################################################
 NEWEST_FIRST_ARCHIVES = True
 REVERSE_CATEGORY_ORDER = False
 
 ###########################################################
-##						Themes							 ##
+##                        Theme                          ##
 ###########################################################
 THEME = "themes/Elegant_SeisMan"
 THEME_STATIC_DIR = 'theme'
@@ -135,7 +135,7 @@ THEME_STATIC_PATHS = ['static']
 CSS_FILE = 'main.css'
 
 ###########################################################
-##							Plugins						 ##
+##                          Plugins                      ##
 ###########################################################
 PLUGIN_PATH = 'plugins'
 PLUGINS = [
@@ -143,7 +143,7 @@ PLUGINS = [
 ]
 
 ###########################################################
-##					Plugin: Sitemap						 ##
+##                       Plugin: Sitemap                 ##
 ###########################################################
 SITEMAP = {
     'format': 'xml',
