@@ -53,12 +53,9 @@ INTRASITE_LINK_REGEX = '[{|](?P<what>.*?)[|}]'
 PYGMENTS_RST_OPTIONS = {'classprefix': 'pgcss', 'linenos': 'table'}
 
 STATIC_PATHS = [
-    'images',
-	'extra/favicon.ico',
-    ]
-EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'},
-    }
+	'images',
+	'theme/images',
+]
 
 ###########################################################
 ##					URL settings					 	 ##
