@@ -42,17 +42,23 @@ PLUGINS = []
 SITENAME = u'SeisMan'
 SITEURL = ''
 TEMPLATE_PAGES = None
-STATIC_PATHS = ['images']
 TIMEZONE = 'Asia/Shanghai'
 TYPOGRIFY = True
 DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives')
 PAGINATED_DIRECT_TEMPLATES = ('index',)
 SUMMARY_MAX_LENGTH = 50
-EXTRA_TEMPLATES_PATHS = []
 ASCIIDOC_OPTIONS = []
 WITH_FUTURE_DATES = False
 INTRASITE_LINK_REGEX = '[{|](?P<what>.*?)[|}]'
 PYGMENTS_RST_OPTIONS = {'classprefix': 'pgcss', 'linenos': 'table'}
+
+STATIC_PATHS = [
+    'images',
+	'extra/favicon.ico',
+    ]
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    }
 
 ###########################################################
 ##					URL settings					 	 ##
