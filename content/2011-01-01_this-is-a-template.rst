@@ -1,8 +1,7 @@
 This is Title 
 ##############
 
-:subtitle:
-:date: 2099-01-01 00:00
+:date: 2011-01-01 00:00
 :author: SeisMan
 :category: FreeTalk
 :tags: tag1, tag2
