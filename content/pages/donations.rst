@@ -1,4 +1,4 @@
-捐助
+Donations
 #########
 
 :slug: donation
