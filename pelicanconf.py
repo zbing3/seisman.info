@@ -87,15 +87,15 @@ SLUG_SUBSTITUTIONS = ()
 ##                       Feed Settings                   ##
 ###########################################################
 # Feed generation is usually not desired when developing
-FEED_DOMAIN = None
-FEED_ATOM = None
+FEED_DOMAIN = SITEURL
 FEED_RSS = None
-FEED_ALL_ATOM = None
-FEED_ALL_RSS = None
-CATEGORY_FEED_ATOM = None
-CATEGORY_FEED_RSS = None
-TAG_FEED_ATOM = None
+FEED_ALL_RSS = 'feeds/all.rss.xml'
+CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 TAG_FEED_RSS = None
+FEED_ATOM = None
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TAG_FEED_ATOM = None
 FEED_MAX_ITEMS = ''
 
 ###########################################################
@@ -161,13 +161,13 @@ SITEMAP = {
     }
 }
 
-
 ## Elegant Theme
 RECENT_ARTICLES_COUNT = 20
 COMMENTS_INTRO = u'So what do you think? Did I miss something? Is any part unclear? Leave your comments below.'
 SITE_LICENSE = u'Copyright &copy; 2013-2014 <a href="http://seisman.info"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"> SeisMan</span></a>. All Rights Reserved.'
 SITE_DESCRIPTION = u'关注和分享地震学相关知识、软件、代码。'
 SITESUBTITLE = u'学会整理自己的经验是科研的第一步。'
+USE_FAVICON = True
 #LANDING_PAGE_ABOUT
 #PROJECTS
 
@@ -177,5 +177,5 @@ EMAIL_FIELD_PLACEHOLDER = u'Enter your email...'
 SUBSCRIBE_BUTTON_TITLE = u'Send me Free updates'
 MAILCHIMP_FORM_ACTION = u'http://seisman.us3.list-manage1.com/subscribe/post?u=03bdd9e889c533d6db4dd0454&amp;id=dc5a50f619'
 
-
 DISQUS_SITENAME = u'seisman'
+
