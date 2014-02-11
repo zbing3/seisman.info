@@ -164,7 +164,8 @@ SITEMAP = {
 ## Elegant Theme
 RECENT_ARTICLES_COUNT = 20
 COMMENTS_INTRO = u'So what do you think? Did I miss something? Is any part unclear? Leave your comments below.'
-SITE_LICENSE = u'Copyright &copy; 2013-2014 <a href="http://seisman.info"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"> SeisMan</span></a>'
+SITE_LICENSE = u'Copyright &copy; 2013-2014 <a href="http://seisman.info"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"> SeisMan</span></a>. All Rights Reserved.'
+SITESUBTITLE = u'学会整理自己的经验是科研的第一步。'
 
 # MailChimp
 EMAIL_SUBSCRIPTION_LABEL = u'Get Weekly Updates'
