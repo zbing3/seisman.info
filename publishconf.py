@@ -21,4 +21,5 @@ SOCIAL = (
         ('Email', 'mailto:seisman.info@gmail.com'),
 		('Weibo', 'http://weibo.com/seisman'),
 		('RSS', SITEURL + "/" + FEED_ALL_RSS),
+		('CNY', 'http://me.alipay.com/seisman'),
 )

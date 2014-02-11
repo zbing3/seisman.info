@@ -1,5 +1,5 @@
-About
-#####
+关于
+####
 
 :slug: about
 

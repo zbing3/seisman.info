@@ -178,4 +178,3 @@ SUBSCRIBE_BUTTON_TITLE = u'Send me Free updates'
 MAILCHIMP_FORM_ACTION = u'http://seisman.us3.list-manage1.com/subscribe/post?u=03bdd9e889c533d6db4dd0454&amp;id=dc5a50f619'
 
 DISQUS_SITENAME = u'seisman'
-
