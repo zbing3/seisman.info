@@ -162,10 +162,13 @@ SITEMAP = {
 
 ## Elegant Theme
 RECENT_ARTICLES_COUNT = 20
+COMMENTS_INTRO = u'So what do you think? Did I miss something? Is any part unclear? Leave your comments below.'
+SITE_LICENSE = u'Copyright &copy; 2013-2014 <a href="http://seisman.info"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"> SeisMan</span></a>'
 
 # MailChimp
 EMAIL_SUBSCRIPTION_LABEL = u'Get Weekly Updates'
 EMAIL_FIELD_PLACEHOLDER = u'Enter your email...'
 SUBSCRIBE_BUTTON_TITLE = u'Send me Free updates'
 MAILCHIMP_FORM_ACTION = u'http://seisman.us3.list-manage1.com/subscribe/post?u=03bdd9e889c533d6db4dd0454&amp;id=dc5a50f619'
+
 
