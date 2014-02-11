@@ -16,10 +16,25 @@ RELATIVE_URLS = False
 DELETE_OUTPUT_DIRECTORY = True
 
 ## Social
-SOCIAL = (
-        ('Github', 'http://github.com/seisman'),
-        ('Email', 'mailto:seisman.info@gmail.com'),
-		('Weibo', 'http://weibo.com/seisman'),
-		('RSS', SITEURL + "/" + FEED_ALL_RSS),
-		('CNY', 'http://me.alipay.com/seisman'),
-)
+SOCIAL = [
+	{	
+		'icon': 'GitHub',
+		'title': 'GitHub主页',
+		'url':  'http://github.com/seisman'},
+	{	
+		'icon': 'envelope',
+		'title': '电子邮件',
+		'url': 'mailto:seisman.info@gmail.com'},
+	{	
+		'icon': 'Weibo',
+		'title': '新浪微博',
+		'url': 'http://weibo.com/seisman'},
+	{
+		'icon': 'RSS',
+		'title': 'RSS订阅',
+		'url': SITEURL + "/" + FEED_ALL_RSS},
+	{
+		'icon': 'CNY',
+		'title': '捐助本站',
+		'url': 'http://me.alipay.com/seisman'},
+]
