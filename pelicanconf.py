@@ -7,7 +7,7 @@ from __future__ import unicode_literals
 ###########################################################
 AUTHOR = u'SeisMan'
 DATE_FORMATS = {
-	'zh': ('zh_CN', '%x %A'),
+	'zh': ('zh_CN', '%x'),
 	'en': ('en_US', '%a, %d %b %Y'),
 }
 USE_FOLDER_AS_CATEGORY = True
