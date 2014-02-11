@@ -28,7 +28,7 @@ JINJA_FILTERS = {}
 LOCALE = ('zh_CN', 'en_US')
 READERS = {}
 IGNORE_FILES = ['.#*']
-MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra']
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
 OUTPUT_PATH = 'output/'
 PATH = None
 PAGE_DIR = 'pages'
@@ -43,7 +43,7 @@ SITEURL = ''
 TEMPLATE_PAGES = None
 TIMEZONE = 'Asia/Shanghai'
 TYPOGRIFY = True
-DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives')
+DIRECT_TEMPLATES = ('index', 'tags', 'categories','archives', 'search', '404')
 PAGINATED_DIRECT_TEMPLATES = ('index',)
 SUMMARY_MAX_LENGTH = 50
 ASCIIDOC_OPTIONS = []
@@ -68,13 +68,13 @@ PAGE_SAVE_AS = '{slug}.html'
 PAGE_LANG_URL = '{slug}-{lang}'
 PAGE_LANG_SAVE_AS = '{slug}-{lang}.html'
 CATEGORY_URL = 'category/{slug}'
-CATEGORY_SAVE_AS = 'category/{slug}.html'
+CATEGORY_SAVE_AS = ''
 TAG_URL = 'tag/{slug}'
-TAG_SAVE_AS = 'tag/{slug}.html'
+TAG_SAVE_AS = ''
 TAGS_URL = 'tags'
 TAGS_SAVE_AS = 'tags.html'
 AUTHOR_URL = 'author/{slug}.html'
-AUTHOR_SAVE_AS = 'author/{slug}.html'
+AUTHOR_SAVE_AS = ''
 AUTHORS_URL = 'authors.html'
 AUTHORS_SAVE_AS = 'authors.html'
 ARCHIVES_SAVE_AS = 'archives.html'
@@ -141,6 +141,7 @@ PLUGIN_PATH = 'plugins'
 PLUGINS = [
 	'sitemap',
 	'extract_toc',
+	'tipue_search',
 ]
 
 ###########################################################
@@ -165,7 +166,10 @@ SITEMAP = {
 RECENT_ARTICLES_COUNT = 20
 COMMENTS_INTRO = u'So what do you think? Did I miss something? Is any part unclear? Leave your comments below.'
 SITE_LICENSE = u'Copyright &copy; 2013-2014 <a href="http://seisman.info"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"> SeisMan</span></a>. All Rights Reserved.'
+SITE_DESCRIPTION = u'关注和分享地震学相关知识、软件、代码。'
 SITESUBTITLE = u'学会整理自己的经验是科研的第一步。'
+#LANDING_PAGE_ABOUT
+#PROJECTS
 
 # MailChimp
 EMAIL_SUBSCRIPTION_LABEL = u'Get Weekly Updates'
