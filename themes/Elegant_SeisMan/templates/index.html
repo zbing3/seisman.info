@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block title %}
-{{ super() }}
+{{ super() }}{%if SITESUBTITLE %} · {{SITESUBTITLE|striptags}} {% endif%}
 {% endblock title %}
 
 {% block meta_tags_in_head %}
