@@ -3,3 +3,7 @@ output
 
 # Python compiled files
 *.pyc
+
+
+# 编辑器swap文件
+*.swp
