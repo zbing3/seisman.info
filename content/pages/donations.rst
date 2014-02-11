@@ -7,3 +7,4 @@ Donations
 
 .. image:: https://img.alipay.com/sys/personalprod/style/mc/btn-index.png
    :target: http://me.alipay.com/seisman
+   :alt: donation to seisman
