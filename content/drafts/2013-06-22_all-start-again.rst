@@ -5,9 +5,7 @@
 :slug: all-start-again
 :summary: 介绍一下整个博客的由来以及一些说明。
 
-.. contents::
-..
-
+.. contents:: ----------------
 
 前世
 ====
