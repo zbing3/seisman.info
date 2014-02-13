@@ -1,0 +1,16 @@
+SAC 101.6a 发布
+#####################################################
+:date: 2013-11-27 12:46
+:author: SeisMan
+:category: SAC
+:tags: 发布
+:slug: sac-1016a-release
+
+SAC 101.6a于2013年11月21日发布。
+
+这个版本主要修正了101.6版本中的一些Bug，也加入了一些新的特性。
+
+官方目前给出了SAC
+Manual的PDF版本，下载地址：\ `http://www.iris.edu/files/sac-manual/sac\_manual.pdf`_
+
+.. _`http://www.iris.edu/files/sac-manual/sac\_manual.pdf`: http://www.iris.edu/files/sac-manual/sac_manual.pdf
