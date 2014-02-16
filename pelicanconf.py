@@ -142,7 +142,6 @@ PLUGINS = [
 	'sitemap',
 	'extract_toc',
 	'tipue_search',
-    'cjk-auto-spacing',
 ]
 
 ###########################################################
