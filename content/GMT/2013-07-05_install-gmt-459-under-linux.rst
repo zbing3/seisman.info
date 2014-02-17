@@ -3,8 +3,8 @@ GMT4.5.9在Linux下的安装
 
 :date: 2013-07-05 12:46
 :author: SeisMan
-:category: GMT4
-:tags: 安装
+:category: GMT
+:tags: 编译,GMT4
 :slug: install-gmt-459-under-linux
 
 .. contents::

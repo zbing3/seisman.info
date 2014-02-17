@@ -1,11 +1,11 @@
-GMT 4.5.6及更早版本在Linux下的安装
+GMT4.5.6及更早版本在Linux下的安装
 ##################################
 
 :date: 2013-07-04 12:13
 :modified: 2014-02-17
 :author: SeisMan
-:category: GMT4
-:tags: 编译
+:category: GMT
+:tags: 编译,GMT4
 :slug: install-gmt-456-under-linux
 
 .. contents::
