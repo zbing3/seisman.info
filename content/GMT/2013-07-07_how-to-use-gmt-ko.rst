@@ -64,6 +64,7 @@ Perl版
 ------
 
 .. code-block:: perl
+
  #!/usr/bin/perl -w
  #
  # GMT template

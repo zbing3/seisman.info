@@ -20,7 +20,7 @@
 一张图可以说明一切:
 
 .. figure:: http://ww1.sinaimg.cn/large/c27c15bejw1edmeznrz4sj20j90fpwez.jpg
-   :alt:震中距、方位角(az)、反方位角(baz)示意图
+   :alt: 震中距、方位角(az)、反方位角(baz)示意图
    :width: 600 px
    
    图1：震中距、方位角(az)、反方位角(baz)示意图

@@ -49,7 +49,7 @@ SUMMARY_MAX_LENGTH = 50
 ASCIIDOC_OPTIONS = []
 WITH_FUTURE_DATES = False
 INTRASITE_LINK_REGEX = '[{|](?P<what>.*?)[|}]'
-PYGMENTS_RST_OPTIONS = {'classprefix': 'pgcss', 'linenos': 'table'}
+PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 
 STATIC_PATHS = [
 	'images',
