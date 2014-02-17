@@ -1,3 +1,9 @@
 div#contents p.topic-title.first {
     display: none;
 }
+
+.sidebar-nav-fixed {
+    position:fixed;
+    top:84px;
+    width:16.48%;
+}
