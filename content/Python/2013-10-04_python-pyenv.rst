@@ -57,6 +57,8 @@ Python多版本共存之pyenv
 更新数据库
 ----------
 
+安装完成之后需要对数据库进行更新：
+
 .. code-block:: bash
 
     $ pyenv rehash
@@ -100,18 +102,8 @@ Python多版本共存之pyenv
 
 -  输入\ ``python``\ 即可使用新版本的python；
 -  系统命令会以/usr/bin/python的方式直接调用老版本的python；
--  使用pip安装第三方模块时会安装到=/.pyenv/versions/3.3.2下，不会和系统模块发生冲突。
-
-
+-  使用pip安装第三方模块时会安装到~/.pyenv/versions/3.3.2下，不会和系统模块发生冲突。
 
 .. _`https://bitbucket.org/pypa/setuptools/downloads/ez_setup.py`: https://bitbucket.org/pypa/setuptools/downloads/ez_setup.py)%E8%8E%B7%E5%8F%96%E4%BB%A3%E7%A0%81%EF%BC%8C%E4%BD%86%E6%98%AF%E4%B8%8D%E7%9F%A5%E4%B8%BA%E4%BD%95%E8%BF%99%E4%B8%AA%E7%BD%91%E5%9D%80%E6%97%A0%E6%B3%95%E9%93%BE%E6%8E%A5%EF%BC%8C%E6%89%80%E4%BB%A5%E5%AE%89%E8%A3%85%E4%B8%80%E7%9B%B4%E4%B8%8D%E6%88%90%E5%8A%9F%E3%80%82
-
-
-
-
-
-
-
-
 .. _pyenv: https://github.com/yyuu/pyenv
 

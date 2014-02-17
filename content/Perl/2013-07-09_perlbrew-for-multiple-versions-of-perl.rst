@@ -12,6 +12,8 @@ Perl多版本共存之Perlbrew
 说明
 ====
 
+推荐使用plenv作为Perl版本管理工具，不再推荐PerlBrew。plenv相比于PerlBrew更加简单也更有优势。关于plenv的介绍，参考博文《`Perl多版本共存之plenv <{filename}/Perl/2013-11-03_perl-plenv.rst>`_》。
+
 缘由
 ====
 
