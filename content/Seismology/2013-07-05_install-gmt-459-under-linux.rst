@@ -86,6 +86,16 @@ GMT从4.5.7开始，原来的几个源码包现在合并成了一个，安装起
 - netcdf-3.x.x的最终版本为3.6.3，netcdf-4.x.x的最新版本是4.3.0。
 - 按需选择版本，注意netcdf与GSHHG的对应关系。
 
+依赖包
+======
+
+编译过程中可能出现一些错误，主要是相关的依赖包没有安装，因而可能需要安装如下软件包：
+
+.. code-block:: bash
+    
+    sudo yum install g++ libXt-devel libXaw-devel libXmu-devel libSM-devel
+
+
 .. _`http://gmt.soest.hawaii.edu/`: http://gmt.soest.hawaii.edu/
 .. _`ftp://ftp.scc.u-tokai.ac.jp/pub/gmt`: ftp://ftp.scc.u-tokai.ac.jp/pub/gmt
 .. _gmt-4.5.9.tar.bz2: ftp://ftp.scc.u-tokai.ac.jp/pub/gmt/gmt-4.5.9.tar.bz2
