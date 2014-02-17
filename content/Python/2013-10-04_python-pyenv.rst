@@ -27,6 +27,16 @@ Python多版本共存之pyenv
 安装Python
 ==========
 
+查看可安装的版本
+----------------
+
+.. code-block:: bash
+
+   $ pyenv install --list
+
+安装指定版本
+------------
+
 使用如下命令即可安装python 3.3.2.
 
 .. code-block:: bash
@@ -45,14 +55,14 @@ Python多版本共存之pyenv
 在所有python依赖库都安装好的情况下，python的安装很顺利。
 
 更新数据库
-==========
+----------
 
 .. code-block:: bash
 
     $ pyenv rehash
 
 查看当前已安装的python版本
-==========================
+--------------------------
 
 .. code-block:: bash
 
@@ -63,7 +73,7 @@ Python多版本共存之pyenv
 其中的星号表示使用的是系统自带的python。
 
 设置全局的python版本
-====================
+--------------------
 
 .. code-block:: bash
 
@@ -75,7 +85,7 @@ Python多版本共存之pyenv
 当前全局的python版本已经变成了3.3.2。也可以使用\ ``pyenv local``\ 或\ ``pyenv shell``\ 临时改变python版本。
 
 确认python版本
-==============
+--------------
 
 .. code-block:: bash
 
