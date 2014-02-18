@@ -6,6 +6,7 @@ Perl多版本共存之plenv
 :category: Perl
 :tags: 安装
 :slug: perl-plenv
+:summary: 使用plenv管理多个Perl版本。
 
 .. contents::
 
@@ -25,8 +26,8 @@ plenv和PerlBrew是相同功能的工具，不过，感觉plenv比perlbrew要更
 .. code-block:: bash
 
  $ git clone git://github.com/tokuhirom/plenv.git ~/.plenv
- $ echo 'export PATH=$HOME/.plenv/bin:$PATH' >> ~/.bashrc
- $ echo 'eval $(plenv init -)' >> ~/.bashrc
+ $ echo 'export PATH="$HOME/.plenv/bin:$PATH"' >> ~/.bashrc
+ $ echo 'eval "$(plenv init -)"' >> ~/.bashrc
  $ exec $SHELL -l
 
 安装plenv的build插件

@@ -6,6 +6,7 @@ Python多版本共存之pyenv
 :category: Python
 :tags: 安装
 :slug: python-pyenv
+:summary: 使用pyenv管理多个Python版本。
 
 .. contents::
 
@@ -19,9 +20,9 @@ Python多版本共存之pyenv
 .. code-block:: bash
 
    $ git clone git://github.com/yyuu/pyenv.git ~/.pyenv
-   $ echo 'export PYENV_ROOT=$HOME/.pyenv' >> ~/.bashrc
-   $ echo 'export PATH=$PYENV_ROOT/bin:$PATH' >> ~/.bashrc
-   $ echo 'eval $(pyenv init -)' >> ~/.bashrc
+   $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+   $ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+   $ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
    $ exec $SHELL -l
 
 安装Python
