@@ -22,7 +22,6 @@ M\_Map还有一个附加包，叫做M\_Namebox，其可以在M\_Map绘图的基�
    :align: center
    :alt: figure
 
-
 .. figure:: http://ww1.sinaimg.cn/large/c27c15bejw1e96yydbdf9j21fv131ag3.jpg
    :align: center
    :alt: figure
@@ -41,7 +40,7 @@ M\_Map还有一个附加包，叫做M\_Namebox，其可以在M\_Map绘图的基�
 
 .. figure:: http://ww1.sinaimg.cn/large/c27c15bejw1e96z1j772fj21fv1310yb.jpg
    :align: center
-   :alt: 
+   :alt: fig
 
 .. figure:: http://ww3.sinaimg.cn/large/c27c15bejw1e96z1svavtj21fv131td8.jpg
    :align: center

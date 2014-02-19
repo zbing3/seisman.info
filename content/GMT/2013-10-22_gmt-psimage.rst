@@ -6,6 +6,7 @@ GMT命令之很有用但是却不常用的psimage
 :category: GMT
 :tags: GMT命令, 图像
 :slug: gmt-psimage
+:summary: 介绍psimage命令的语法.
 
 .. contents::
 

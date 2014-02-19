@@ -103,16 +103,14 @@ Perl实现
 经典错误写法
 ------------
 
-在吸取了bash的经验教训之后，知道可以用"\\072"来表示冒号，脚本如下：
+在吸取了bash的经验教训之后，知道可以用"\072"来表示冒号，脚本如下：
 
 .. code-block:: perl
- [code lang="perl"]
- #!/usr/bin/env perl
- system "psbasemap -R0/10/0/10 -JX6i -B1/1:.'Title \\072 eltiT': >
-a.ps";
- [/code]
 
-这种写法为什么是错的？因为perl首先会对system的参数（即双引号内的值）进行解释，双引号内的单引号被当作普通字符来解释（而不是任何分界符），而在双引号内反斜杠是可以转义的，因而\\072被转义为":"，然后再调用psbasemap命令，即真正传给psbasemap并运行的命令其实是
+ #!/usr/bin/env perl
+ system "psbasemap -R0/10/0/10 -JX6i -B1/1:.'Title \072 eltiT': > a.ps";
+
+这种写法为什么是错的？因为perl首先会对system的参数（即双引号内的值）进行解释，双引号内的单引号被当作普通字符来解释（而不是任何分界符），而在双引号内反斜杠是可以转义的，因而\072被转义为":"，然后再调用psbasemap命令，即真正传给psbasemap并运行的命令其实是
 
 ::
 
@@ -123,13 +121,12 @@ a.ps";
 一种正确的写法
 --------------
 
-[code lang="perl"]
- #!/usr/bin/env perl
- system 'psbasemap -R0/10/0/10 -JX6i -B1/1:."Title \\072 eltiT": >
-a.ps';
- [/code]
+.. code-block:: perl 
 
-这种写法为什么是正确的呢？因为Perl首先要对参数进行内插，由于参数是由单引号括起来的，此时双引号被当作普通字符而不是分界符，而单引号内反斜杠可以转义的字符只有单引号以及反斜杠，因而在单引号内\\072不会被解释。那么传送给psbasemap的命令实际上就是
+ #!/usr/bin/env perl
+ system 'psbasemap -R0/10/0/10 -JX6i -B1/1:."Title \072 eltiT": > a.ps';
+
+这种写法为什么是正确的呢？因为Perl首先要对参数进行内插，由于参数是由单引号括起来的，此时双引号被当作普通字符而不是分界符，而单引号内反斜杠可以转义的字符只有单引号以及反斜杠，因而在单引号内\072不会被解释。那么传送给psbasemap的命令实际上就是
 
 ::
 
@@ -141,13 +138,14 @@ a.ps';
 ------------------------------
 
 使用Perl而不是Bash的一个重要理由在于，Perl在字符串处理以及数值计算方面相对Bash来说要有很大的优势。因而用Perl写脚本的时候，如果仅仅只是像上面那个例子那样单引号内只有一堆字符就没有意义了。更常见的情况是system的参数中含有一些变量，如下所示：
- [code lang="perl"]
+
+.. code-block:: perl
+
  #!/usr/bin/env perl
  $R = "0/10/0/10";
  $J = "X6i";
 
-system 'psbasemap -R$R -J$J -B1/1:."Title \\072 eltiT": > a.ps';
- [/code]
+ system 'psbasemap -R$R -J$J -B1/1:."Title \072 eltiT": > a.ps';
 
 这样写是错误的，因为单引号内变量$R和$J都不会被内插，所以传送给psbasemap的是无意义的参数。
 
@@ -155,15 +153,16 @@ system 'psbasemap -R$R -J$J -B1/1:."Title \\072 eltiT": > a.ps';
 --------------
 
 单引号内的变量不会被内插是肯定的了，但是变量不可能不用，那就只能把错误写法修改一下啦：
- [code lang="perl"]
+
+.. code-block:: perl
+
  #!/usr/bin/env perl
  $R = "0/10/0/10";
  $J = "X6i";
 
-system "psbasemap -R$R -J$J -B1/1:.'Title \\\\072 eltiT': > a.ps";
- [/code]
+ system "psbasemap -R$R -J$J -B1/1:.'Title \\072 eltiT': > a.ps";
 
-这里的修改在于将"\\072"改成了"\\\\072"，这样perl会将"\\\\"解释为"\\"，然后进行系统调用，因而此时传给psbasemap的参数实际上是
+这里的修改在于将"\072"改成了"\\072"，这样perl会将"\\"解释为"\"，然后进行系统调用，因而此时传给psbasemap的参数实际上是
 
 ::
 
@@ -191,6 +190,4 @@ system "psbasemap -R$R -J$J -B1/1:.'Title \\\\072 eltiT': > a.ps";
 参考来源
 ========
 
-1.Perl的单引号字符直接量：\ `http://seisman.info/single-quoted-string-literals-in-perl.html`_
-
-.. _`http://seisman.info/single-quoted-string-literals-in-perl.html`: http://seisman.info/single-quoted-string-literals-in-perl.html
+1.Perl的单引号字符直接量： http://seisman.info/single-quoted-string-literals-in-perl.html
