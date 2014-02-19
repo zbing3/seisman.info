@@ -3,7 +3,7 @@ GMT 5与4:如何兼得？
 
 :date: 2013-11-09 00:13
 :author: SeisMan
-:category: GMT, GMT5
+:category: GMT
 :tags: GMT技巧
 :slug: multiple-versions-of-gmt
 

@@ -3,7 +3,7 @@ GMT5进阶之DCW数据的使用
 
 :date: 2013-11-21 00:17
 :author: SeisMan
-:category: GMT4
+:category: GMT
 :tags: GMT技巧, GMT脚本, 数据
 :slug: usage-of-dcw-data
 
