@@ -3,7 +3,7 @@ Doule Couple辐射花样可视化
 
 :date: 2013-09-02 00:09
 :author: SeisMan
-:category: Mathematica, 地震学软件
+:category: 地震学软件
 :tags: 震源机制解, 震源球
 :slug: doule-couple-radition-pattern
 
