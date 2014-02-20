@@ -5,9 +5,6 @@
 :category: Seismology
 :slug: geo-homepage
 
- 知己知彼，百战不殆。 ---《孙子·谋攻》
-
-
 #. Roel Snieder : http://inside.mines.edu/~rsnieder/
 #. Michael Thorne : http://web.utah.edu/thorne/index.html
 #. Charles J. Ammon : http://eqseis.geosc.psu.edu/~cammon/
