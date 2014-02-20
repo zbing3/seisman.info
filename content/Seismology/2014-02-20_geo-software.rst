@@ -5,8 +5,6 @@
 :category: Seismology
 :slug: geo-software
 
-.. contents::
-
 Seismic Analysis Code
 =====================
     
