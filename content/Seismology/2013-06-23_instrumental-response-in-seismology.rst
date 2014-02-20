@@ -33,6 +33,7 @@ $$ u(t)=s(t)*g(t)*i(t) $$
 
 .. figure:: http://ww3.sinaimg.cn/large/c27c15bejw1edljanf9ojj21kw0skgnr.jpg
    :alt: 原始地面记录
+   :width: 700 px
 
    图 1：原始地面运动；横轴代表时间，纵轴代表振幅。 
 
@@ -45,6 +46,7 @@ $$ u(t)=s(t)*g(t)*i(t) $$
 
 .. figure:: http://ww4.sinaimg.cn/large/c27c15bejw1edljgvaxmuj20y30hagqt.jpg
    :alt: 仪器响应频谱图
+   :width: 700 px
 
    图2：仪器响应频谱图。横轴为频率，上图为振幅谱，下图为相位谱。
 
@@ -57,6 +59,7 @@ $$ u(t)=s(t)*g(t)*i(t) $$
 
 .. figure:: http://ww1.sinaimg.cn/large/c27c15bejw1edljin0idcj21kw0skmz9.jpg
    :alt: COLA台站的原始地震记录
+   :width: 700 px
     
    图3：COLA台站的原始地震记录
 
@@ -75,6 +78,7 @@ $$ u(t)=s(t)*g(t)*i(t) $$
 
 .. figure:: http://ww2.sinaimg.cn/large/c27c15bejw1edlmc50pwuj21kw0skdi0.jpg
    :alt: 理想的地震图
+   :width: 700 px
 
    图4：理想的地震图，由原始数据经过transfer之后得到。
 

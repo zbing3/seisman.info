@@ -20,7 +20,6 @@ DEFAULT_DATE = 'fs'
 DEFAULT_METADATA = ()
 FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)'
 PATH_METADATA = ''
-EXTRA_PATH_METADATA = {}
 DELETE_OUTPUT_DIRECTORY = False
 OUTPUT_RETENTION = ()
 JINJA_EXTENSIONS = []
@@ -54,7 +53,12 @@ PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 STATIC_PATHS = [
 	'images',
 	'theme/images',
+    'extra/CNAME',
 ]
+
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+}
 
 ###########################################################
 ##                     URL settings                      ##
