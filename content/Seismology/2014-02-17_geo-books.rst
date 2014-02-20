@@ -1,0 +1,267 @@
+地球物理相关书籍 
+################
+
+:date: 2014-02-17 10:00
+:category: 地震学基础
+:tags: 书籍
+:slug: geo-books
+
+Geodynamics
+===========
+
+- 作者: Donald L. Turcotte + Gerald Schubert
+- 年份: 2002, Second Edition
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=1680576691&uk=19892171>`__
+
+Programming Geophysics In C++
+=============================
+- 作者: Dave Nichols et.al.
+- 年份: 1993
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=2277446904&uk=19892171>`__
+
+Modern Global Seimmology
+========================
+
+- 作者: Thorne Lay + Terry C. Wallace
+- 年份: 1995
+- 下载: `PDF格式 <http://pan.baidu.com/share/link?shareid=2572759794&uk=19892171>`__ `DJVU格式 <http://pan.baidu.com/share/link?shareid=2579799271&uk=19892171>`__
+- 简评：难度中等的一本书，有些理论推导，又有物理的概念，如书中所说，适合高年级本科生以及低年级研究生使用.
+
+An Introduction to Seismology, Earthquakes, and Earth Structure
+================================================================
+
+- 作者: Seth Stein + Michael Wysession
+- 年份: 1991
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=2628446188&uk=19892171>`__
+- 致谢: 感谢cellwang提供高清原版pdf。
+
+The mechanics of earthquakes and faulting
+=========================================
+
+- 作者: Christopher H. Scholz
+- 年份: 2002, 2nd Edition
+- 下载: `PDF格式 <http://pan.baidu.com/share/link?shareid=2640524330&uk=19892171>`__ `DJVU格式 <http://pan.baidu.com/share/link?shareid=2643729737&uk=19892171>`__
+
+Theory of the Earth
+===================
+
+- 作者: Don L.Anderson
+- 年份: 1990
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=2658106017&uk=19892171>`_ `官方下载 <http://resolver.caltech.edu/CaltechBOOK:1989.001>`_
+
+New Theory of the Earth
+=======================
+
+- 作者: Don L.Anderson
+- 年份: 2007
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=2667206244&uk=19892171>`__
+
+Introduction to Seismology
+==========================
+
+- 作者: Peter Shearer
+- 年份: 2009
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=2678144825&uk=19892171>`__
+- 简评: 该书是地震学入门书籍，内容比较全面，没有太多的数学推导，主要是物理概念。
+
+地震九讲
+========
+
+- 作者: Bruce A. Bolt
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=2685839012&uk=19892171>`__
+- 简评: 该书翻译自Bruce A. Bolt所著的Earthquakes and Geological Discovery，是一本比较基础的地震学科普读物，适合地震学未入门的人士阅读。该书貌似由Prof. Ni推荐。
+
+Quantitative Seismology
+=======================
+
+- 作者: Keiiti Aki + Paul G. Richards
+- 年份: 2009, 第二版
+- 下载: `中文第一版第一卷 <http://pan.baidu.com/share/link?shareid=2698081536&uk=19892171>`__ `中文第一版第二卷 <http://pan.baidu.com/share/link?shareid=2699900210&uk=19892171>`__ `英文第二版 <http://pan.baidu.com/share/link?shareid=3214146683&uk=19892171>`__
+- 简评: 这本书被誉为地震学圣经，但不是一本适合入门的书籍。书中的数学部分很多，因而要求一定的数学功底。书本身没有太多的物理方面的描述，只有在自己认真推导公式之后，细细品味才有可能理解其中的物理过程以及物理含义。第二版相对第一版删去了不少内容，Prof. Xiaofei Chen建议阅读第一版。这里给出的是第一版的中文版以及第二版的英文版。
+
+Seismic Ray Theory
+===================
+
+- 作者: V. Cerveny
+- 年份: 2001
+- 地址: `百度网盘 <http://pan.baidu.com/share/link?shareid=2706288263&uk=19892171>`__
+
+New Manual of Seismological Observatory Practice
+================================================
+
+- 年份: 1979，2009，2012
+- 网址: `官方网站 <http://www.iaspei.org/projects/NMSOP.html>`__
+- 下载: `2009版 <http://pan.baidu.com/share/link?shareid=2718200758&uk=19892171>`__ `2012版 <http://pan.baidu.com/share/link?shareid=2721648557&uk=19892171>`__
+- 简评: 本书有1979、2009和2012三个版本，2009和2012版提供官方电子版，但是是以一个章节一个pdf形式提供的，所以我提供的链接地址是我自己合并的版本。2012版目前(截至2013年3月24日)尚有部分章节电子版未完成，因而不推荐下载。京东商城有该书的中文版《新地震观测实践手册》出售，但是该中文版翻译非常差，不建议购买。
+
+Seismic Interferometry
+======================
+
+- 作者: Gerard Schuster
+- 年份: 2009
+- 简介: `Cambridge出版社 <http://www.cambridge.org/gb/knowledge/isbn/item2327397/?site_locale=en_GB>`__
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=2731846402&uk=19892171>`__
+- 相关: `随书代码 <http://utam.gg.utah.edu/Inter.LAB1/>`_
+- 简评: 地震干涉方法最近几年开始发展。书的第一章是地震干涉的简介，第二章是推导公式，应该算是全书的精华了，第三章往后基本都是对第二章的公式进行延伸，第十二章是地震干涉方法在弹性波中的应用。第二章的内容有数学、有物理，对于理解地震干涉非常有帮助。
+
+seismic interferometry : history and present status
+===================================================
+
+- 作者: CPA Wapenaar, D Draganov, JOA Robertsson
+- 年份: 2008
+- 下载: `书籍目录 <http://geodus1.ta.tudelft.nl/PrivatePages/C.P.A.Wapenaar/1_Books/bookintro_2008.pdf>`__
+- 在线: `Google Book <http://books.google.com.hk/books?id=ufpRFZOPwKsC&printsec=frontcover&hl=zh-CN#v=onepage&q&f=true>`__
+- 简评: 这本书其实只是收集了一堆别人已经发表的文章，但是其仍然是一本好书。作者是地震干涉方面的大牛，其总结了地震干涉方法的发展历史、收集了相关重要文献，对于刚入门的人理解地震干涉方法的发展很有好处。书的精华部分在于其目录中给出的文献列表，所以有目录就够了。另外作者在每一章的开始都会对接下来一章的所有文献做一个简单的说明或者评价，这部分也值得一看。Google book提供了在线预览（不完全）。
+
+Routine Data Processing in Earthquake Seismology With Sample Data, Exercises and Software
+=========================================================================================
+
+- 作者: Jens Havskov Lars Ottemöller
+- 年份: 2010
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=2744609021&uk=19892171>`__
+
+The Solid Earth
+================
+
+- 作者: C. M. R. Fowler
+- 年份: 1990
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=2750416259&uk=19892171>`__
+
+Seismic Wave Propagation in Stratified Media
+============================================
+
+- 作者: Brian Kennett
+- 年份: 1983
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=2754568486&uk=19892171>`__
+
+Imaging the earth's interior
+============================
+
+- 作者: Jon F. Claerbout
+- 年份: 1984
+- 简介: `官方主页 <http://seisman.info/geophysics/sepwww.stanford.edu/sep/prof/>`__
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=2763755494&uk=19892171>`__
+
+反演理论及其应用
+================
+
+- 作者: 徐果明
+- 年份: 2003
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3045050475&uk=19892171>`__
+
+地球物理反演理论
+================
+
+- 作者: 王家映
+- 年份: 1998
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3048935031&uk=19892171>`__
+
+地球内部物理学（中文译本）
+===========================
+
+- 作者: 古登堡
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3055535742&uk=19892171>`__
+
+Processing Earthquake Data
+==========================
+
+- 作者: Jens Havskov + Lars Ottemöller
+- 年份: 2008
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3062535449&uk=19892171>`__
+
+Principles of Seismology
+========================
+
+- 作者: Agustin Udias
+- 年份: 2000
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3071379434&uk=19892171>`__
+
+Inverse Problem Theory
+======================
+
+- 作者: Albert Tarantola
+- 年份: 1987
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3087795853&uk=19892171>`__
+
+Inverse Problems In Geophysics
+===============================
+
+- 作者: Roel Snieder + Jeannot Trampert
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3106567112&uk=19892171>`__
+
+Introductory Geophysics Inverse Theory
+======================================
+
+- 作者: John A. Scales, Martin L. Smith and Sven Treitel
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3114142549&uk=19892171>`__
+
+Handbook of Geomathematics
+==========================
+
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3120028137&uk=19892171>`__
+
+Global Optimization Methods in Geophysical Inversion
+====================================================
+
+- 作者: Mrinal Sen + Paul L. Stoffa
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3126535201&uk=19892171>`__
+
+Fundamentals of Geophysics
+==========================
+
+- 作者: William Lowrie
+- 年份: 2007, 第二版
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3131355376&uk=19892171>`__
+
+Image Estimation By Example
+===========================
+
+- 作者: Jon F. Claerbout
+- 年份: 2012
+- 简介: `官方主页 <http://seisman.info/geophysics/sepwww.stanford.edu/sep/prof/>`__
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3139625520&uk=19892171>`__
+
+Fundamentals of Geophysical Data Processing
+===========================================
+
+- 作者: Jon F. Claerbout
+- 年份: 1985
+- 简介: `官方主页 <http://sepwww.stanford.edu/sep/prof/>`__
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3149802306&uk=19892171>`__
+
+Eearth Soundings Analysis
+=========================
+
+- 作者: Jon F. Claerbout
+- 年份: 2004
+- 简介: `官方主页 <http://sepwww.stanford.edu/sep/prof/>`__
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3155897373&uk=19892171>`__
+
+Basic Earth Imaging
+===================
+
+- 作者: Jon F. Claerbout
+- 年份: 2010
+- 简介: `官方主页 <http://sepwww.stanford.edu/sep/prof/>`__
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3162437488&uk=19892171>`__
+
+Array signal processing concepts and techniques
+===============================================
+
+- 作者: Don Johnson, Dan Dudgeon
+- 简介: `亚马逊 <http://www.amazon.cn/Array-Signal-Processing-Concepts-and-Techniques-Johnson-Don-H/dp/0130485136>`__
+- 下载: `上部 <http://pan.baidu.com/share/link?shareid=3168869893&uk=19892171>`__ `下部 <http://pan.baidu.com/share/link?shareid=3170831324&uk=19892171>`__ `勘误 <http://pan.baidu.com/share/link?shareid=3172515653&uk=19892171>`__
+
+地震学原理
+==========
+
+- 作者: 徐果明
+- 下载: `百度网盘 <http://pan.baidu.com/share/link?shareid=3175635438&uk=19892171>`__
+- 简评: 徐果明老师编的一本地震学书籍，因为是中文所以比较容易读，前期比较偏文字，中期偏公式，后期重新回到文字。
+
+A Breviary of Seismic Tomography
+================================
+
+- 作者: Nolet, Guust
+- 年份: 2011
+- 下载: `PDF <http://pan.baidu.com/share/link?shareid=2936050214&uk=19892171>`__

@@ -1,5 +1,5 @@
-计算机类相关书籍
-################
+计算机类书籍
+############
 
 :date: 2014-02-19 17:03
 :author: SeisMan
@@ -14,11 +14,11 @@ C语言类书籍
 
 #.  The C Programming Language
     
-    This is a test
+    - 作者: Brian W. Kernighan / Dennis M. Ritchie 
     
-    - `英文影印版 <http://pan.baidu.com/s/1DutGe>`_ : 来源未知，影印质量相对较高，大小约20+M；
-    - `英文电子版 <http://pan.baidu.com/s/1ACvjb>`_ : 来自于fishc.com，高清，含一个水印，重做了封面页。从内容排版上看，不是原版，但质量应该没问题。
-    - `中文电子版 <http://pan.baidu.com/s/1qZ6Fm>`_ : 来自于fishc.com，高清，含多个水印。
+    - 版本: 1989, 第二版
+    
+    - 下载地址: `英文影印版 <http://pan.baidu.com/s/1DutGe>`_ `英文电子版 <http://pan.baidu.com/s/1ACvjb>`_ `中文电子版 <http://pan.baidu.com/s/1qZ6Fm>`_
 
 
 Perl相关书籍
