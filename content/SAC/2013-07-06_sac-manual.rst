@@ -5,7 +5,7 @@ SAC帮助文档中文版
 :author: SeisMan
 :category: SAC
 :tag: Manual
-:slug: sac_manual
+:slug: sac-manual
 
 .. contents::
 
