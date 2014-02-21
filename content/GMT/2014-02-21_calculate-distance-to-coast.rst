@@ -97,6 +97,12 @@ grdmath示例
 
 注意理解-R和-I是如何选取的！
 
+在GMT5下命令如下::
+
+    $ gmt grdmath -R240.011/240.211/30.122/30.322 -I0.2 -r coast.txt LDIST = dist.grd
+    $ gmt grd2xyz dist.grd 
+    240.111 30.222  64.1325836182
+
 参考
 ====
 
