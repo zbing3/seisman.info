@@ -2,6 +2,7 @@ GMT5.1.0在Linux下的安装
 #######################
 
 :date: 2013-11-06 00:53
+:modified: 2014-02-22
 :author: SeisMan
 :category: GMT
 :tags: 编译, GMT5
@@ -95,6 +96,8 @@ RHEL, CentOS, Fedora
  $ cd build/
  $ cmake ..
 
+在某些系统下\ ``cmake``\ 的版本是2.6，此时命令需要改成\ ``cmake28 ..``\ 。
+
 \ ``cmake ..``\ 会检查GMT对软件的依赖关系，我的检查结果如下::
 
     *  Options:
@@ -158,6 +161,12 @@ RHEL, CentOS, Fedora
 
 #.  http://gmtrac.soest.hawaii.edu/projects/gmt/wiki/BuildingGMT
 #.  `GMT4.5.9在Linux下的安装 <{filename}/GMT/2013-07-05_install-gmt-459-under-linux.rst>`_
+
+修订历史
+========
+
+- 2013-11-06: 初稿；
+- 2014-02-22: cmake版本需要2.8以上；
 
 .. _PCRE: http://www.pcre.org/
 .. _GDAL: http://www.gdal.org/
