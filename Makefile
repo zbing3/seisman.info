@@ -64,4 +64,7 @@ github: publish
 	ghp-import $(OUTPUTDIR)
 	git push git@github.com:SeisMan/seisman.github.io.git gh-pages:master
 
+push: 
+	git push origin source
+
 .PHONY: html help clean regenerate serve devserver publish github
