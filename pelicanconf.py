@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 ###########################################################
 ##                     Basic settings                    ##
 ###########################################################
+SITEURL = u'http://localhost:8000'
 AUTHOR = u'SeisMan'
 DATE_FORMATS = {
 	'zh': ('zh_CN', '%x'),
@@ -184,3 +185,27 @@ SUBSCRIBE_BUTTON_TITLE = u'Send me Free updates'
 MAILCHIMP_FORM_ACTION = u'http://seisman.us3.list-manage1.com/subscribe/post?u=03bdd9e889c533d6db4dd0454&amp;id=dc5a50f619'
 
 DISQUS_SITENAME = u'seisman'
+
+## Social
+SOCIAL = [
+	{	
+		'icon': 'GitHub',
+		'title': 'GitHub主页',
+		'url':  'http://github.com/seisman'},
+	{	
+		'icon': 'envelope',
+		'title': '电子邮件',
+		'url': 'mailto:seisman.info@gmail.com'},
+	{	
+		'icon': 'Weibo',
+		'title': '新浪微博',
+		'url': 'http://weibo.com/seisman'},
+	{
+		'icon': 'RSS',
+		'title': 'RSS订阅',
+		'url': SITEURL + "/" + FEED_ALL_RSS},
+	{
+		'icon': 'CNY',
+		'title': '捐助本站',
+		'url': 'http://me.alipay.com/seisman'},
+]
