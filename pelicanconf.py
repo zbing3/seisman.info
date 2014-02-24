@@ -147,6 +147,7 @@ PLUGINS = [
 	'extract_toc',
 	'tipue_search',
     'latex',
+    'neighbors',
 ]
 
 ###########################################################
