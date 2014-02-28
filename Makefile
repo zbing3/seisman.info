@@ -10,7 +10,7 @@ PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 FTP_HOST=seismani.sjc9.cachechina.org
 FTP_USER=seismani
-FTP_TARGET_DIR=/domains/seisman.info/public_html/
+FTP_TARGET_DIR=/domains/seisman.info/public_html
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
