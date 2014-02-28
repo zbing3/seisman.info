@@ -9,15 +9,19 @@
 
 .. contents::
 
+Web类书籍
+=========
+
+#. Head First HTML and CSS, 2nd Edition
+#. Head First HTML5 Programming
+
 C语言类书籍
 ===========
 
 #.  The C Programming Language
     
     - 作者: Brian W. Kernighan / Dennis M. Ritchie 
-    
     - 版本: 1989, 第二版
-    
     - 下载地址: `英文影印版 <http://pan.baidu.com/s/1DutGe>`_ `英文电子版 <http://pan.baidu.com/s/1ACvjb>`_ `中文电子版 <http://pan.baidu.com/s/1qZ6Fm>`_
 
 
@@ -32,3 +36,6 @@ Perl相关书籍
 #.  `Perl Pocket Reference <http://pan.baidu.com/share/link?shareid=128285524&uk=19892171>`_
 #.  `Programming Perl <http://pan.baidu.com/share/link?shareid=232884347&uk=19892171>`_
 #.  `Learning Perl Student Workbook <http://pan.baidu.com/s/1xJdi7>`_
+
+
+
