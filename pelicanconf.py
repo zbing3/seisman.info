@@ -54,12 +54,9 @@ PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 STATIC_PATHS = [
 	'images',
 	'theme/images',
-    'extra/CNAME',
 ]
 
-EXTRA_PATH_METADATA = {
-    'extra/CNAME': {'path': 'CNAME'},
-}
+EXTRA_PATH_METADATA = {}
 
 ###########################################################
 ##                     URL settings                      ##
@@ -68,7 +65,7 @@ ARTICLE_URL = '{slug}.html'
 ARTICLE_SAVE_AS = '{slug}.html'
 ARTICLE_LANG_URL = '{slug}-{lang}.html'
 ARTICLE_LANG_SAVE_AS = '{slug}-{lang}.html'
-PAGE_URL = '{slug}'
+PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 PAGE_LANG_URL = '{slug}-{lang}'
 PAGE_LANG_SAVE_AS = '{slug}-{lang}.html'
