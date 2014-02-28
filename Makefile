@@ -68,11 +68,12 @@ publish:
 ftp: publish                       
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUTDIR) $(FTP_TARGET_DIR) ; quit"
 
-github: publish
-	ghp-import $(OUTPUTDIR)
-	git push git@github.com:seisman/seisman.github.io.git gh-pages:master
+github: 
+	git push origin master
 
-push: 
-	git push origin source
+gitcafe: publish
+	ghp-import -b gitcafe-pages $(OUTPUTDIR)
+#	git push git@github.com:seisman/seisman.github.io.git gitcafe-pages
+	git push git@gitcafe.com:seisman/seisman.git gitcafe-pages
 
 .PHONY: html help clean regenerate serve devserver publish github ftp
