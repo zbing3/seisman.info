@@ -5,6 +5,7 @@ sphinx生成PDF的中文支持问题
 :date: 2014-03-01 10:50
 :category: LaTeX
 :tags: sphinx, 中文
+:slug: chinese-support-for-sphinx
 
 .. contents::
 
