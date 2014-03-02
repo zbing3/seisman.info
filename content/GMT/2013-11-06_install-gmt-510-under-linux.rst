@@ -1,8 +1,8 @@
-GMT5.1.0在Linux下的安装
+GMT5.1.1在Linux下的安装
 #######################
 
 :date: 2013-11-06 00:53
-:modified: 2014-02-22
+:modified: 2014-03-02
 :author: SeisMan
 :category: GMT
 :tags: 编译, GMT5
@@ -15,11 +15,11 @@ GMT5的第一个正式版5.1.0于2013年11月05日正式发布了。GMT5相对�
 下载
 ====
 
-GMT 5.1.0 需要下载三个文件：
+GMT 5.1.1 需要下载三个文件：
 
-#. GMT源码： http://gmtrac.soest.hawaii.edu/files/download?name=gmt-5.1.0-src.tar.gz
-#. 全球海岸线数据GSHHG： ftp://ftp.soest.hawaii.edu/gshhg/gshhg-gmt-nc4-2.2.4.tar.gz
-#. 全球数字图表DCW： ftp://ftp.soest.hawaii.edu/dcw/dcw-gmt-1.1.0.tar.gz
+#. GMT源码： http://gmtrac.soest.hawaii.edu/files/download?name=gmt-5.1.1-src.tar.gz
+#. 全球海岸线数据GSHHG： ftp://ftp.soest.hawaii.edu/gshhg/gshhg-gmt-2.3.0.tar.gz
+#. 全球数字图表DCW： ftp://ftp.soest.hawaii.edu/dcw/dcw-gmt-1.1.1.tar.gz
 
 喜欢使用svn的，也可以利用下面的命令获取GMT源码::
 
@@ -28,33 +28,54 @@ GMT 5.1.0 需要下载三个文件：
 解决依赖关系
 ============
 
-GMT的编译和运行，依赖其他一些软件，看ps文件需要ghostscript，编译需要cmake(>=2.8.5)，网格文件需要netCDF(>=4.0,需要支持netCDF-4/HDF5)。其他可有可无的依赖包括Perl兼容正则表达式库\ `PCRE`_\ ，地理空间数据抽象库\ `GDAL`_\ ，以及Fourier变换库\ `FFTW`_ 。如果想要自行编译文档的话还需要\ `Sphinx`_\ 。
+基础依赖包
+----------
 
-这些依赖文件，如果想要完全自行编译，可配置的选项太多，曾经看过一天的文档没有配置出结果。所以还是直接利用各个Linux发行版的软件包管理器直接安装比较好。
+GMT编译过程需要C编译器，以及一些系统级别的库文件。
 
-Ubuntu/Debian
--------------
+对于Ubuntu/Debian::
 
-很久没用Ubuntu了，aptitude应该与apt-get是类似的东西。下面的命令安装了gs、编译基本软件、cmake、netcdf和、gdal。如果想要安装其他依赖，请自行搜索。
+    sudo apt-get g++ libxt-dev libxaw-dev libxmu-dev libSM-dev
+    
+对于CentOS/RHEL/Fedora::    
+    
+    sudo yum install gcc-c++ libXt-devel libXaw-devel libXmu-devel libSM-devel
 
-::
+软件依赖包
+----------
+
+GMT5的依赖包，相对来说要复杂很多。
+
+必须的包包括：
+
+- 看ps文件需要ghostscript；
+- 编译需要cmake(>=2.8.5)；
+- 网格文件需要netCDF(>=4.0,且需要支持netCDF-4/HDF5)。
+
+其他可有可无的依赖包括：
+
+- Perl兼容正则表达式库\ `PCRE`_\ ；
+- 地理空间数据抽象库\ `GDAL`_\ ；
+- Fourier变换库\ `FFTW`_ ；
+- 如果想要自行编译文档的话还需要\ `Sphinx`_\ 。
+
+
+对于Ubuntu/Debian::
 
     sudo aptitude install ghostscript build-essential cmake libnetcdf-dev libgdal1-dev
 
-RHEL, CentOS, Fedora
---------------------
-
-这三者都是采用yum作为包管理器，其官方源中不包含安装GMT所需要的软件。因而，使用这些Linux发行版的用户，一定要自行添加\ `EPEL`_\ 源。关于如何添加EPEL源的方法，可以参考以前博客中的\ `这篇`_\ 文章。
-
-下面的命令安装了GMT需要的三个软件cmake、netcdf和gdal::
+对于RHEL/CentOS/Fedora::
 
     sudo yum install cmake28 netcdf-devel gdal-devel
 
-如果想要安装其他依赖，命令如下（没找到sphinx）：
+一些需要注意的地方:
 
-::
+#. CentOS官方源中cmake的版本为2.6.4，不满足要求，需要先安装EPEL源，再安装EPEL源中的\ ``cmake28``\ ，并且在编译过程中要使用\ ``cmake28``\ 命令，而不是\ ``cmake``\ 命令。
+#. CentOS官方源中不带有netcdf，需要先安装EPEL源。需要安装的包包括\ ``netcdf``\ , \``netcdf-devel``\，其他包（尤其是hdf5包）会根据依赖关系自动安装。
+#. GDAL包是非必须的，但是在数据格式转换时非常有用，建议安装。同样，CentOS需要先安装EPEL源；
+#. PCRE以及FFTW请自行搜索；这里的sphinx是python的一个用于制作文档的模块，不是某个数据库查询软件；
+#. 其他发行版很久不用了，不清楚细节，读者可以在使用过程中补充。
 
-    sudo yum install pcre-devel fftw-devel
 
 安装GMT
 =======
@@ -64,31 +85,28 @@ RHEL, CentOS, Fedora
 .. code-block:: bash
 
  $ ls
- dcw-gmt-1.1.0.tar.gz gmt-5.1.0-src.tar.gz gshhg-gmt-nc4-2.2.4.tar.gz
- $ tar -zxvf gmt-5.1.0-src.tar.gz
- $ tar -zxvf dcw-gmt-1.1.0.tar.gz
- $ tar -zxvf gshhg-gmt-nc4-2.2.4.tar.gz
- $ ls
- dcw-gmt-1.1.0 dcw-gmt-1.1.0.tar.gz gmt-5.1.0 gmt-5.1.0-src.tar.gz
- gshhg-gmt-nc4-2.2.4 gshhg-gmt-nc4-2.2.4.tar.gz
- $ cd gmt-5.1.0
+ dcw-gmt-1.1.1.tar.gz gmt-5.1.1-src.tar.gz gshhg-gmt-2.3.0.tar.gz
+ $ tar -zxvf gmt-5.1.1-src.tar.gz
+ $ tar -zxvf dcw-gmt-1.1.1.tar.gz
+ $ tar -zxvf gshhg-gmt-2.3.0.tar.gz
+ $ cd gmt-5.1.1
  $ cp cmake/ConfigUserTemplate.cmake cmake/ConfigUser.cmake
  $ vi cmake/ConfigUser.cmake # 修改Config文件
 
 修改ConfigUser.cmake以满足用户自定义的需求，将需要修改的行最前面的“#”去掉，并根据实际情况修改，一个基本的示例如下::
 
-
-    set (CMAKE_INSTALL_PREFIX "/opt/GMT-5.1.0")
-    set (GSHHG_ROOT "/export/home/seisman/backup/seisware/GMT/5.1.0/gshhg-gmt-nc4-2.2.4")
+    set (CMAKE_INSTALL_PREFIX "/opt/GMT-5.1.1")
+    set (GSHHG_ROOT "/home/seisman/Datas/gshhg-gmt-2.3.0")
     set (COPY_GSHHG TRUE)
-    set (DCW_ROOT "/export/home/seisman/backup/seisware/GMT/5.1.0/dcw-gmt-1.1.0")
+    set (DCW_ROOT "/home/seisman/Datas/dcw-gmt-1.1.1")
     set (COPY_DCW TRUE)
-    set (FLOCK TRUE)
 
 - CMAKE_INSTALL_PREFIX设置GMT的安装路径；
 - GSHHG_ROOT为GSHHG数据的位置，需要对下载下来的压缩文件进行解压，并给定绝对路径；COPY_GSHHG为TRUE会将GSHHG数据复制到GMT/share/coast下；
 - DCW_ROOT设置DCW数据的位置，需给定绝对路径，COPY_DCW将数据复制到GMT/share/dcw下；
-- FLOCK设置开启文件锁定功能。
+- 也可以设置GMT_INSTALL_MODULE_LINKS为FALSE，这样做的原因可以参考\ `GMT多版本共存 <{filename}/GMT/2013-11-09_multiple-versions-of-gmt.rst>`_
+
+PS: 如果系统中存在多个GMT的版本，按照上面的做法会存在多个GSHHG和DCW数据的副本。可以将这些数据放置在系统中固定的位置（比如我把这些数据都放在\ ``/home/seisman/Datas``\ 目录下），然后有两种处理方式：其一，设置COPY_GSHHG为FALSE，此时GMT在编译时会到GSHHG_ROOT指定的目录中寻找数据；其二，使用默认的GSHHG_ROOT以及COPY_GSHHG，在安装完成之后，到GMT/share目录下设置一个target为\ ``/home/seisman/Datas/gshhg-gmt-2.3.0``\ ，link name为coast的软链接即可。对于DCW数据，同理。
 
 修改完毕后，进行编译::
 
@@ -101,8 +119,8 @@ RHEL, CentOS, Fedora
 \ ``cmake ..``\ 会检查GMT对软件的依赖关系，我的检查结果如下::
 
     *  Options:
-    *  Found GSHHG database       : /export/home/seisman/backup/seisware/GMT/5.1.0/gshhg-gmt-nc4-2.2.4 (2.2.4)
-    *  Found DCW-GMT database     : /export/home/seisman/backup/seisware/GMT/5.1.0/dcw-gmt-1.1.0
+    *  Found GSHHG database       : /home/seisman/Datas/gshhg-gmt-nc4-2.2.4 (2.2.4)
+    *  Found DCW-GMT database     : /home/seisman/Datas/dcw-gmt-1.1.0
     *  NetCDF library             : /usr/lib64/libnetcdf.so
     *  NetCDF include dir         : /usr/include
     *  GDAL library               : /usr/lib64/libgdal.so
@@ -129,7 +147,7 @@ RHEL, CentOS, Fedora
     -- Generating done
     -- Build files have been written to: /export/home/seisman/backup/seisware/GMT/5.1.0/gmt-5.1.0/build
 
-检查完毕，开始编译::
+检查完毕，开始编译和安装::
 
  $ make
  $ sudo make install
@@ -153,7 +171,7 @@ RHEL, CentOS, Fedora
 
 .. code-block:: bash
 
- export GMTHOME=/opt/GMT-5.1.0
+ export GMTHOME=/opt/GMT-5.1.1
  export PATH=${GMTHOME}/bin:$PATH
 
 参考来源
@@ -167,10 +185,9 @@ RHEL, CentOS, Fedora
 
 - 2013-11-06: 初稿；
 - 2014-02-22: cmake版本需要2.8以上；
+- 2014-03-02: 更新至GMT 5.1.1；
 
 .. _PCRE: http://www.pcre.org/
 .. _GDAL: http://www.gdal.org/
 .. _FFTW: http://www.fftw.org/
 .. _Sphinx: http://sphinx-doc.org/
-.. _EPEL: http://fedoraproject.org/wiki/EPEL
-.. _这篇: http://seisman.blog.ustc.edu.cn/index.php/archives/476

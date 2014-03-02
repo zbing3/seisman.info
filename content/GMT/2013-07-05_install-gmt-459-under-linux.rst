@@ -3,13 +3,19 @@ GMT4.5.9在Linux下的安装
 
 :date: 2013-07-05 12:46
 :author: SeisMan
+:modified: 2014-03-02
 :category: GMT
-:tags: 编译,GMT4
+:tags: 编译, GMT4
 :slug: install-gmt-459-under-linux
 
 .. contents::
 
-本文适用于GMT 4.5.7至4.5.9版本。
+说明
+====
+
+::
+
+    本文适用于GMT 4.5.7至4.5.9版本，由于这三个版本已经过时，因而本文不再更新。
 
 GMT从4.5.7开始，原来的几个源码包现在合并成了一个，安装起来相对要更简单一些。GMT 4.5.9于2013年1月1日正式发布，这个版本依然主要只是bug修订，但是安装过程中还是有一些细节的变化。
 
@@ -66,7 +72,7 @@ GMT从4.5.7开始，原来的几个源码包现在合并成了一个，安装起
 
     $ tar -jxvf gshhg-gmt-nc3-2.2.3.tar.bz2 # 解压GMT需要的海岸线数据
     $ sudo cp -r gshhg-gmt-nc3-2.2.3 /usr/local/GMT-4.5.9/share/coast
-         # 拷贝数据，将所有文件拷贝到share下的coast目录中[/code]
+         # 拷贝数据，将所有文件拷贝到share下的coast目录中
 
 修改环境变量
 ------------
@@ -76,7 +82,7 @@ GMT从4.5.7开始，原来的几个源码包现在合并成了一个，安装起
 .. code-block:: bash
 
     export GMTHOME=/usr/local/GMT-4.5.9
-    export PATH=${GMTHOME}/bin:$PATH[/code]
+    export PATH=${GMTHOME}/bin:$PATH
 
 备注
 ====
@@ -100,4 +106,4 @@ GMT从4.5.7开始，原来的几个源码包现在合并成了一个，安装起
 .. _`ftp://ftp.scc.u-tokai.ac.jp/pub/gmt`: ftp://ftp.scc.u-tokai.ac.jp/pub/gmt
 .. _gmt-4.5.9.tar.bz2: ftp://ftp.scc.u-tokai.ac.jp/pub/gmt/gmt-4.5.9.tar.bz2
 .. _gshhg-gmt-nc3-2.2.3.tar.bz2: ftp://ftp.scc.u-tokai.ac.jp/pub/gmt/gshhg-gmt-nc3-2.2.3.tar.bz2
-.. _netcdf-3.6.3.tar.gz: http://www.unidata.ucar.edu/downloads/netcdf/ftp/netcdf-3.6.3.tar.gz
+.. _netcdf-3.6.3.tar.gz: http://www.unidata.:wucar.edu/downloads/netcdf/ftp/netcdf-3.6.3.tar.gz

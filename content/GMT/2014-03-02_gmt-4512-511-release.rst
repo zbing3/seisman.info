@@ -17,7 +17,5 @@ GMT 4.5.12和5.1.1版本发布
 
 GMT4和GMT5的最新版本的安装方法与先前版本的安装方法相似。具体参考:
 
-#. `GMT4更新至4.5.11 <{filename}/GMT/2013-11-07_gmt-4511-release.rst>`_ 
+#. `GMT4在Linux下的安装 <{filename}/GMT/2013-11-07_install-gmt4-under-linux.rst>`_ 
 #. `GMT5.1.0在Linux下的安装 <{filename}/GMT/2013-11-06_install-gmt-510-under-linux.rst>`_
-
-
