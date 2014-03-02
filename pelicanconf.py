@@ -91,8 +91,8 @@ SLUG_SUBSTITUTIONS = ()
 # Feed generation is usually not desired when developing
 FEED_DOMAIN = SITEURL
 FEED_RSS = None
-FEED_ALL_RSS = 'feeds/all.rss.xml'
-CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+FEED_ALL_RSS = 'feed/rss.xml'
+CATEGORY_FEED_RSS = 'feed/%s.rss.xml'
 TAG_FEED_RSS = None
 FEED_ATOM = None
 FEED_ALL_ATOM = None
