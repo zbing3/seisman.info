@@ -1,0 +1,23 @@
+GMT 4.5.12和5.1.1版本发布
+#########################
+
+:author: SeisMan
+:date: 2014-03-02 09:51
+:category: GMT
+:tags: release
+:slug: gmt-4512-and-511-release
+
+
+主要的一些更新如下：
+
+#. GMT4升级至4.5.12;
+#. GMT5升级至5.1.1;
+#. dcw数据升级至1.1.1;
+#. gshhg数据升级至2.3.0，貌似只提供netcdf4，这意味着GMT4必须安装netcdf4才能继续使用最新版本的gshhg数据。
+
+GMT4和GMT5的最新版本的安装方法与先前版本的安装方法相似。具体参考:
+
+#. `GMT4更新至4.5.11 <{filename}/GMT/2013-11-07_gmt-4511-release.rst>`_ 
+#. `GMT5.1.0在Linux下的安装 <{filename}/GMT/2013-11-06_install-gmt-510-under-linux.rst>`_
+
+
