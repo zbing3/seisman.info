@@ -21,6 +21,7 @@
 - xeCJK 3.2.1
 
 GitHub主页：https://github.com/seisman/better-programming
+
 PDF下载：http://pan.baidu.com/s/1eQiPBou
 
-.. 陈皓_: http://coolshell.cn/haoel
+.. _陈皓: http://coolshell.cn/haoel
