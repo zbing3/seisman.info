@@ -68,7 +68,7 @@ EPEL中的netcdf版本为4.1.1，其编译过程中依赖于hdf5，因而当通�
 
 通过以上四个方法确认netcdf以及hdf5均来自于EPEL，则没问题。
 
-如果确认无误，依然出现如上报错，一个可能的原因是自己曾经尝试编译过netcdf，冰禁用了hdf5相关功能，而删除netcdf时没有删除干净，或者怎样。
+如果确认无误，依然出现如上报错，一个可能的原因是自己曾经尝试编译过netcdf，并禁用了hdf5相关功能，而删除netcdf时没有删除干净，或者怎样。
 
 如果真的没招了，可以查看编译GMT时的build/CMakeFiles目录下的CMakeError.log和CMakeOutput.log这两个日志文件，寻找与netcdf相关的部分。
 
