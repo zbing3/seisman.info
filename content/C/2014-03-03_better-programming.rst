@@ -3,7 +3,7 @@
 
 :author: SeisMan
 :date: 2014-03-03 14:18
-:category: Linux
+:category: C
 :tags: 书籍
 :slug: better-programming
 
@@ -22,6 +22,12 @@
 
 GitHub主页：https://github.com/seisman/better-programming
 
-PDF下载：http://pan.baidu.com/s/1eQiPBou
+PDF下载：http://pan.baidu.com/s/1ntK5pYp
+
+*修订历史*
+
+- 2014-03-03: 初稿;
+- 2014-03-06: 原PDF中丢失一代码示例，已修改；
+
 
 .. _陈皓: http://coolshell.cn/haoel
