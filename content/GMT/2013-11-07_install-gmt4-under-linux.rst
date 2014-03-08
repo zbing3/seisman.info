@@ -67,17 +67,16 @@ PS1：CentOS有些特殊，其base源中没有netCDF，因而需要首先添加E
 PS2：对于GMT4，如果执意要使用netcdf3也没有问题，在下载海岸线数据时需要选择gshhg-2.2.4以下的文件名包含\ ``nc3``\ 的数据。
 
 安装GMT
-
 =======
 
 编译GMT源码
 -----------
 
-::
+.. code-block:: bash
 
  $ ./configure --prefix=/usr/local/GMT-4.5.12
  $ make
- $ sudo make install
+ $ sudo make install-all
 
 安装海岸线数据
 --------------
@@ -100,5 +99,6 @@ PS2：对于GMT4，如果执意要使用netcdf3也没有问题，在下载海岸
 修订历史
 ========
 
-- 2013-11-07: 针对GMT 4.5.11发布初稿；
+- 2013-11-07：针对GMT 4.5.11发布初稿；
 - 2014-03-02：针对GMT 4.5.12进行更新；
+- 2014-03-08：``make install``->``make install-all``；
