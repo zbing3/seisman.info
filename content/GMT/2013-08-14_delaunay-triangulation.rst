@@ -30,12 +30,11 @@ GMT之用triangulate进行Delaunay三角剖分
 
  triangulate 4.5.9 [64-bit] - Optimal (Delaunay) triangulation of Cartesian xyz-data [Watson]
 
- usage: triangulate <infiles> [-Dx\|y] [-E<empty>] [-F] [-G<grdfile>]
- [-H[i][<nrec>]] [-I<xinc>[u][=\|+][/<yinc>[u][=\|+]]] [-J<params>]
- [-R<west>/<east>/<south>/<north>[r]] [-V] [-:[i\|o]]
- [-b[i\|o][s\|S\|d\|D[<ncol>]\|c[<var1>/...]]]
- [-f[i\|o]<colinfo>] [-m[i\|o][<flag>]]
- [/code]
+ usage: triangulate <infiles> [-Dx|y] [-E<empty>] [-F] [-G<grdfile>]
+ [-H[i][<nrec>]] [-I<xinc>[u][=|+][/<yinc>[u][=|+]]] [-J<params>]
+ [-R<west>/<east>/<south>/<north>[r]] [-V] [-:[i|o]]
+ [-b[i|o][s|S|d|D[<ncol>]|c[<var1>/...]]]
+ [-f[i|o]<colinfo>] [-m[i|o][<flag>]]
 
 选项说明
 ========
@@ -115,7 +114,7 @@ v.list的内容大概如下：
 
 :: 
 
- triangulate station.txt -m \| psxy -m -R118.4/122.5/27.4/30.9 -JM5i -W0.5p -B1 -V delaunay.ps
+ triangulate station.txt -m | psxy -m -R118.4/122.5/27.4/30.9 -JM5i -W0.5p -B1 -V delaunay.ps
 
 效果如下：
 
