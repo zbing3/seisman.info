@@ -10,7 +10,7 @@ pssac2的安装
 
 pssac2是由Brian Savage基于Lupei Zhu的pssac修改得到的，其继承了pssac的优质特性，同时在很多方面又有了进一步的提高。比如选项更加符合GMT的风格，且支持直接在地图上绘制地震图（这个在pssac中很困难）。同时，Brain Savage也是当前SAC的主要维护者之一。
 
-Brain Savage的个人主页：\ `http://seismolab.gso.uri.edu/=savage/`_
+Brain Savage的个人主页：\ `http://seismolab.gso.uri.edu/~savage/`_
 
 下载
 ====
