@@ -21,9 +21,8 @@ pssac2貌似没有更官方的下载地址，现在只能找到下面这个
 
  $ mkdir pssac2
  $ cd pssac2
- $ wget -r -np -nd http://geodynamics.org/svn/cig/seismo/3D/ADJOINT\_TOMO/measure\_adj/UTIL/pssac2/
+ $ wget -r -np -nd http://geodynamics.org/svn/cig/seismo/3D/ADJOINT_TOMO/measure_adj/UTIL/pssac2/
  $ rm index.html robots.txt
-
 
 编译前的配置
 ============
@@ -33,9 +32,9 @@ pssac2貌似没有更官方的下载地址，现在只能找到下面这个
  $ chmod +x configure
  $ ./configure --with-gmt=/usr/local/GMT-4.5.9 --with-netcdf=/usr/local/netcdf-3.6.3 
  checking whether to enable maintainer-specific portions of Makefiles... no
- checking build system type... x86\_64-unknown-linux-gnu
- checking host system type... x86\_64-unknown-linux-gnu
- checking target system type... x86\_64-unknown-linux-gnu
+ checking build system type... x86_64-unknown-linux-gnu
+ checking host system type... x86_64-unknown-linux-gnu
+ checking target system type... x86_64-unknown-linux-gnu
  checking for a BSD-compatible install... /usr/bin/install -c
  checking whether build environment is sane... yes
  checking for a thread-safe mkdir -p... /bin/mkdir -p
@@ -53,16 +52,16 @@ pssac2貌似没有更官方的下载地址，现在只能找到下面这个
  checking for style of include used by make... GNU
  checking dependency style of gcc... none
  checking for library containing sin... -lm
- checking for library containing nc\_create... -lnetcdf
- checking for library containing GMT\_begin... -lgmt
- checking for library containing ps\_line... -lpsl
- checking for library containing GMT\_fill... -lgmtps
+ checking for library containing nc_create... -lnetcdf
+ checking for library containing GMT_begin... -lgmt
+ checking for library containing ps_line... -lpsl
+ checking for library containing GMT_fill... -lgmtps
  checking whether gcc and cc understand -c and -o together... yes
  configure: creating ./config.status
  config.status: creating Makefile
  config.status: executing depfiles commands
 
-出于安全的考虑，从网络上下载的文件的可执行权限都被去除了，所以需要chmod命令给configure文件赋予可执行权限。i
+出于安全的考虑，从网络上下载的文件的可执行权限都被去除了，所以需要chmod命令给configure文件赋予可执行权限。
 
 configure需要给出GMT和netcdf的安装路径。
 
