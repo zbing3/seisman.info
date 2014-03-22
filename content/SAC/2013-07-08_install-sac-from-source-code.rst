@@ -13,7 +13,7 @@ SAC提供了源代码版，可以自主编译安装。安装方法在Readme.buil
 
 .. code-block:: bash
 
- tar -zxvf sac-101.6\_source.tar.gz
+ tar -zxvf sac-101.6_source.tar.gz
  cd sac-101.6
  ./configure --prefix=/usr/local/sac
  make
@@ -31,9 +31,9 @@ SAC提供了源代码版，可以自主编译安装。安装方法在Readme.buil
  checking for tgetent in -lcurses... no
  checking for tgetent in -lncurses... no
  configure: error: libtermcap, libcurses or libncurses are required!
- make[1]: \*\*\* [lib/libedit.a] 错误 1
- make[1]:正在离开目录 \`/home/seisman/Document/sac-101.6/libedit'
- make: \*\*\* [all-recursive] 错误 1
+ make[1]: *** [lib/libedit.a] 错误 1
+ make[1]:正在离开目录 `/home/seisman/Document/sac-101.6/libedit'
+ make: *** [all-recursive] 错误 1
 
 问题：缺少相关库libtermcap, libcurses or libncurses
 
@@ -46,7 +46,6 @@ SAC提供了源代码版，可以自主编译安装。安装方法在Readme.buil
  In file included from ../inc/gdm.h:14,
  from ./msg/outmsg.c:14:
  ../inc/gd5.gui.h:66:27: error: X11/Intrinsic.h: 没有那个文件或目录
- [/code]
 
 问题：缺少Xt头文件
 解决办法：安装libxt-dev或者libxt-devel
