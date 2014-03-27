@@ -25,12 +25,12 @@ Linux下的GMT中文显示
 
 -  ghostscript为系统默认安装，其相关文件路径为/usr/share/ghostscript，该目录下有两个文件夹conf.d和8.70。
 -  系统自带字体文件位于/usr/share/fonts
--  GMT中与字体有关的配置文件为/usr/local/GMT-4.5.9/share/pslib/PS\_font\_info.d
+-  GMT中与字体有关的配置文件为/usr/local/GMT-4.5.9/share/pslib/PS_font_info.d
 
 修改ghostscript配置文件
 =======================================
 
-打开conf.d下的文件cidfmap.zh\_CN，可以看到其默认的文件内容为（如果没有看到cidfmap.zh\_CN，那是因为没有安装ghostscript中文配置包，在我的系统上包名为cjkuni-fonts-ghostscript.noarch）
+打开conf.d下的文件cidfmap.zh_CN，可以看到其默认的文件内容为（如果没有看到cidfmap.zh_CN，那是因为没有安装ghostscript中文配置包，在我的系统上包名为cjkuni-fonts-ghostscript.noarch）
 
 ::
 
@@ -119,14 +119,14 @@ GMT中文测试
 .. code-block:: bash
 
  #!/bin/bash
- gmtset HEADER\_FONT 35
+ gmtset HEADER_FONT 35
 
  pstext -R0/7/0/7 -JX6i/6i -B1/1:."GMT显示汉字": -P > cn.ps <<EOF
  1.5 5 40 0 35 LM GMT，宋体测试
  1.5 4 35 0 36 LM GMT，楷体测试
  EOF
 
- rm .gmt\*
+ rm .gmt*
 
 生成结果如下图：
 
