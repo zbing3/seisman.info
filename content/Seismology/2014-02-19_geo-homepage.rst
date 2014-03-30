@@ -18,3 +18,4 @@
 #. Zhigang Peng : http://geophysics.eas.gatech.edu/people/zpeng/
 #. Hrvoje Tkalčić : http://rses.anu.edu.au/~hrvoje/
 #. Lupei Zhu : http://www.eas.slu.edu/People/LZhu/home.html
+#. Barbara Romanowicz : http://seismo.berkeley.edu/~barbara/
