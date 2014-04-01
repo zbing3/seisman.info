@@ -19,7 +19,7 @@ Java版本：OpenJDK 1.7.0
 2. 卸载原来安装的Java插件（没装过就不卸了）；
 3. 找到Java自带的浏览器插件的位置；
 
-::
+   ::
 
     $ locate libnpjp2
     /usr/java/jre1.7.0_21/lib/amd64/libnpjp2.so
@@ -27,7 +27,7 @@ Java版本：OpenJDK 1.7.0
 
 4. 在firefox插件目录中建立到Java插件文件的软链接；
 
-:: 
+   :: 
 
     $ cd ~/.mozilla/plugins/
     $ ln -s /usr/java/jre1.7.0_21/lib/amd64/libnpjp2.so libnpjp2.so

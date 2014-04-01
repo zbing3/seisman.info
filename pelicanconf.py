@@ -90,12 +90,12 @@ SLUG_SUBSTITUTIONS = ()
 ###########################################################
 # Feed generation is usually not desired when developing
 FEED_DOMAIN = SITEURL
-FEED_RSS = None
-FEED_ALL_RSS = 'feed/rss.xml'
-CATEGORY_FEED_RSS = 'feed/%s.rss.xml'
-TAG_FEED_RSS = None
+#FEED_RSS = None
+#FEED_ALL_RSS = 'feed/rss.xml'
+#CATEGORY_FEED_RSS = 'feed/%s.rss.xml'
+#TAG_FEED_RSS = None
 FEED_ATOM = None
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'feed/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TAG_FEED_ATOM = None
 FEED_MAX_ITEMS = ''
@@ -200,7 +200,7 @@ SOCIAL = [
 	{
 		'icon': 'RSS',
 		'title': 'RSS订阅',
-		'url': SITEURL + "/" + FEED_ALL_RSS},
+		'url': SITEURL + "/" + FEED_ALL_ATOM},
 	{
 		'icon': 'CNY',
 		'title': '捐助本站',
