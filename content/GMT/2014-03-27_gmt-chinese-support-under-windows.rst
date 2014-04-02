@@ -31,12 +31,13 @@ GMT在Windows下如何支持中文的问题在这个\ `博客`_\ 里已经说的
 
 测试脚本
 ========
+本代码为GMT5语法！
+
+GMT4语法的测试脚本位于 http://seisman.info/gmt-chinese-under-linux.html
 
 .. code-block:: bash
 
  #!/bin/bash
- # 本代码为GMT5语法！
- # GMT4语法的测试脚本位于http://seisman.info/gmt-chinese-under-linux.html
  gmt gmtset FONT_TITLE 40p,39,black
 
  gmt pstext -R0/7/0/7 -JX6i/6i -Bafg -B+t"GMT中文" -F+a+c+f -P > cn.ps <<EOF
