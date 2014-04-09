@@ -34,10 +34,10 @@ Catalog直接下载
 
 很多时候我们需要根据其他条件对catalog进行筛选，得到符合自定义条件的地震事件，所以ASCII格式的目录文件就很重要了。GCMT提供了1976年到现在的地震目录，其中1976-2004年的地震目录为dek格式，包含在一个文件中。2005年以后的地震目录为ndk格式，每月一个文件。对于2005年以后的地震目录可以将一年的目录合并到一个文件中，方便管理且不会导致文件过大。
 
-- 1976-2004目录下载：\ `http://www.ldeo.columbia.edu/=gcmt/projects/CMT/catalog/jan76\_dec04.dek`_
-- 2005以后目录下载：\ `http://www.ldeo.columbia.edu/=gcmt/projects/CMT/catalog/NEW\_MONTHLY/`_
-- ndk格式说明：\ `http://www.ldeo.columbia.edu/=gcmt/projects/CMT/catalog/allorder.ndk\_explained`_
-- dek格式说明：\ `http://www.ldeo.columbia.edu/=gcmt/projects/CMT/catalog/allorder.dek\_explained`_
+- 1976-2004目录下载：\ `http://www.ldeo.columbia.edu/~gcmt/projects/CMT/catalog/jan76\_dec04.dek`_
+- 2005以后目录下载：\ `http://www.ldeo.columbia.edu/~gcmt/projects/CMT/catalog/NEW\_MONTHLY/`_
+- ndk格式说明：\ `http://www.ldeo.columbia.edu/~gcmt/projects/CMT/catalog/allorder.ndk\_explained`_
+- dek格式说明：\ `http://www.ldeo.columbia.edu/~gcmt/projects/CMT/catalog/allorder.dek\_explained`_
 
 关于GCMT的文章
 ==============

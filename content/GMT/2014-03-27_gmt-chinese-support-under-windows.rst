@@ -3,6 +3,7 @@ GMT在Windows下的中文支持
 
 :author: SeisMan
 :date: 2014-03-27 16:45
+:modified: 2014-04-03
 :category: GMT
 :tags: GMT技巧, 中文
 :slug: gmt-chinese-support-under-windows
@@ -37,13 +38,12 @@ GMT4语法的测试脚本位于 http://seisman.info/gmt-chinese-under-linux.html
 
 .. code-block:: bash
 
- #!/bin/bash
  gmt gmtset FONT_TITLE 40p,39,black
 
- gmt pstext -R0/7/0/7 -JX6i/6i -Bafg -B+t"GMT中文" -F+a+c+f -P > cn.ps <<EOF
- 3.5 5 0 LM 45p,39,red  GMT宋体
- 3.5 4 0 LM 45p,40,blue GMT楷体
- EOF
+ echo 3.5 5 0 LM 45p,39,red  GMT宋体 > tmp
+ echo 3.5 4 0 LM 45p,40,blue GMT楷体 >> tmp
+
+ gmt pstext tmp -R0/7/0/7 -JX6i/6i -Bafg -B+t"GMT中文" -F+a+c+f -P > cn.ps
 
 图片格式转换
 ============
