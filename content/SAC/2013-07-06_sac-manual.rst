@@ -13,10 +13,9 @@ SAC帮助文档中文版
 3.1 dev版
 =========
 
-此文档使用Git进行版本控制，我会不定期更新或修正文档内容，读者可以下载已定稿的3.0版
-或正在修订中的3.1-dev版。待更新积累到一定程度的时候，我会正式发布3.1版。
+此文档使用Git进行版本控制，我会不定期更新或修正文档内容，读者可以下载已定稿的3.0版或正在修订中的3.1-dev版。待更新积累到一定程度的时候，我会正式发布3.1版。
 
-3.1-dev版下载地址： https://github.com/seisman/SAC_Docs_zh/blob/master/SAC_Docs.pdf?raw=true
+下载地址：`3.1-dev版 <https://github.com/seisman/SAC_Docs_zh/blob/master/SAC_Docs.pdf?raw=true>`_
 
 2014-04-18   3.0版
 ==================
@@ -26,7 +25,7 @@ SAC帮助文档中文版
 - 教程部分根据SAC v101.6a进行修正
 - Bug修订
 
-下载地址: `SAC参考手册v3.0.pdf <http://pan.baidu.com/s/1mgNqxgk>`
+下载地址: `SAC参考手册v3.0.pdf <http://pan.baidu.com/s/1kTiGTb5>`_
 
 2014-02-22   2.3版
 ==================
