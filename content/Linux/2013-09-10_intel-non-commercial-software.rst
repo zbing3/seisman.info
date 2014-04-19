@@ -331,11 +331,10 @@ Intel软件提升计划
 .. code-block:: bash
 
  # Intel
- source /opt/intel/vtune\_amplifier\_xe\_2013/amplxe-vars.sh
- source /opt/intel/inspector\_xe\_2013/inspxe-vars.sh
- source /opt/intel/advisor\_xe\_2013/advixe-vars.sh
+ source /opt/intel/vtune_amplifier_xe_2013/amplxe-vars.sh
+ source /opt/intel/inspector_xe_2013/inspxe-vars.sh
+ source /opt/intel/advisor_xe_2013/advixe-vars.sh
  source /opt/intel/bin/compilervars.sh intel64
- [/code]
 
 使环境变量生效：
 
@@ -353,9 +352,9 @@ Intel软件提升计划
 
 .. code-block:: bash
 
- source /opt/intel/vtune\_amplifier\_xe\_2013/amplxe-vars.sh quiet
- source /opt/intel/inspector\_xe\_2013/inspxe-vars.sh quiet
- source /opt/intel/advisor\_xe\_2013/advixe-vars.sh quiet
+ source /opt/intel/vtune_amplifier_xe_2013/amplxe-vars.sh quiet
+ source /opt/intel/inspector_xe_2013/inspxe-vars.sh quiet
+ source /opt/intel/advisor_xe_2013/advixe-vars.sh quiet
  source /opt/intel/bin/compilervars.sh intel64
 
 搞定收工！
