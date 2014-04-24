@@ -119,7 +119,7 @@ TAG_CLOUD_MAX_ITEMS = 100
 ##                   Translations                        ##
 ###########################################################
 DEFAULT_LANG = 'zh'
-TRANSLATION_FEED_ATOM = 'feeds/all-%s.atom.xml'
+TRANSLATION_FEED_ATOM = 'feed/all-%s.atom.xml'
 TRANSLATION_FEED_RSS = None
 
 ###########################################################
