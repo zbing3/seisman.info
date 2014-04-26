@@ -1,8 +1,0 @@
-{% if SOCIAL %}
-{% from '_includes/_defaults.html' import SOCIAL_PROFILE_LABEL with context %}
-<h4>{{ SOCIAL_PROFILE_LABEL }}</h4>
-{% for entry in SOCIAL %}
-    <a href="{{ entry.url }}" title="{{ entry.title }}" class="sidebar-social-links" target="_blank">
-    <i class="fa fa-{{ entry.icon.lower() }} sidebar-social-links"></i></a>
-{% endfor %}
-{% endif %}
