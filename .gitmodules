@@ -2,5 +2,5 @@
 	path = themes/Elegant
 	url = git@github.com:talha131/pelican-elegant.git
 [submodule "pelican-plugins"]
-	path = pelican-plugins
+	path = plugins
 	url = git@github.com:getpelican/pelican-plugins.git
