@@ -63,9 +63,9 @@ code）。若验证通过，三个工作日内即可收到附件中还有软件�
  export SACHOME=/usr/local/sac
  export PATH=${PATH}:${SACHOME}/bin
  export SACAUX=${SACHOME}/aux
- export SAC\_DISPLAY\_COPYRIGHT=1
- export SAC\_USE\_DATABASE=1
- export SAC\_PPK\_LARGE\_CROSSHAIRS=1
+ export SAC_DISPLAY_COPYRIGHT=1
+ export SAC_USE_DATABASE=1
+ export SAC_PPK_LARGE_CROSSHAIRS=1
  alias sac="${SACHOME}/bin/sac /usr/local/sac/aux/init.m"
 
 在/usr/local/sac/aux中创建新文件init.m，其内容为
@@ -81,7 +81,7 @@ code）。若验证通过，三个工作日内即可收到附件中还有软件�
 
 .. code-block:: bash
 
-    source =/.bashrc[/code]
+    source ~/.bashrc
 
 启动SAC
 =======
@@ -90,7 +90,7 @@ code）。若验证通过，三个工作日内即可收到附件中还有软件�
 
 .. code-block:: bash
 
- [seisman@info =]$ sac
+ $ sac
  SEISMIC ANALYSIS CODE [06/12/2013 (Version 101.6)]
  Copyright 1995 Regents of the University of California
 
