@@ -6,19 +6,19 @@ GMT网格数据之etopo5
 :category: GMT
 :tags: 地形, 数据, 网格
 :slug: etopo5-of-gmt-grid
-:summary: 介绍ETOPO全球地形数据。
+:summary: 介绍ETOPO全球高程数据。
 
 .. contents::
 
-etopo5是全球地形及水深数据，其网格采样间隔为5弧分，目前已经被更高精度的etopo1所取代，但是在绘制大区域地形（比如全球）时，5弧分的精度已经足够，所以其依然有用武之地。官方页面位于\ `http://www.ngdc.noaa.gov/mgg/global/etopo5.html`_
+etopo5是全球高程及水深数据，其空间采样间隔为5弧分，目前已经被更高精度的etopo1所取代，但是在绘制大区域地形（比如全球）时，5弧分的精度已经足够，所以其依然有用武之地。官方页面位于\ `http://www.ngdc.noaa.gov/mgg/global/etopo5.html`_
 
 下载网格数据
 ============
 
 ::
 
- wget -c http://www.ngdc.noaa.gov/mgg/global/relief/ETOPO5/TOPO/ETOPO5/ETOPO5.DAT
- wget -c http://www.ngdc.noaa.gov/mgg/global/relief/ETOPO5/TOPO/ETOPO5/ETOPO5.DOS
+ $ wget -c http://www.ngdc.noaa.gov/mgg/global/relief/ETOPO5/TOPO/ETOPO5/ETOPO5.DAT
+ $ wget -c http://www.ngdc.noaa.gov/mgg/global/relief/ETOPO5/TOPO/ETOPO5/ETOPO5.DOS
 
 ETOPO5.DAT和ETOPO5.DOS都是16位整数的二进制文件，其字节序不同。ETOPO5.DOS为little-endian，ETOPO5.DAT为big-endian。除此之外其内容完全相同。
 
