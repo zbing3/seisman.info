@@ -206,6 +206,6 @@ SOCIAL = [
 		'url': SITEURL + "/" + FEED_ALL_ATOM},
 	{
 		'icon': 'CNY',
-		'title': '捐助本站',
-		'url': 'http://me.alipay.com/seisman'},
+		'title': '捐赠本博',
+        'url': 'http://seisman.info/donation.html'},
 ]
