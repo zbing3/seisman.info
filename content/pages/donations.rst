@@ -3,8 +3,41 @@ Donations
 
 :slug: donation
 
-如果您觉得SeisMan博客的内容有用，您可以考虑通过捐赠来支持本博客，以支付主机空间和域名的费用。目前仅支持通过支付宝钱包扫二维码的方式捐赠。
+SeisMan博客是一个\ **非公益**\ 、\ **非盈利**\ 、\ **技术型**\ 个人独立博客。
 
-.. image:: http://seisman.info/theme/images/alipay.png
-   :width: 200px
-   :alt: donation to seisman
+如果您觉得本博客的原创博文或SAC参考手册对您有用，您可以考虑通过捐赠来支持本博客。
+
+目前支持三种捐赠方式：
+
+#. 精神鼓励
+
+   欢迎在本博客的相关博文或本页面下留言，也可直接邮件联系博主，以表支持。这些都将是我继续维护和更新的动力。
+
+#. 支付宝捐赠
+
+   精神鼓励很重要，物质上的支持算是额外的bonus。可以通过“支付宝钱包”扫一扫二维码来捐赠。对于无独立经济来源的学生而言，不推荐进行大额捐赠。最低限额为￥0.01 RMB。
+   
+   .. image:: http://seisman.info/theme/images/alipay.png
+      :width: 150px
+      :alt: donation to seisman
+
+#. 银行卡捐赠
+
+   如需通过银行卡捐赠，请邮件联系以获得银行卡号信息。
+
+捐赠名单:
+
+.. list-table:: 
+   :widths:  10 10 10
+   :header-rows: 1
+
+   * - 日期
+     - 姓名
+     - 金额
+   * - 2014-05-03
+     - 董*朋
+     - ￥100.00 RMB
+   * - 2014-04-30
+     - huichen
+     - ￥500.00 RMB
+  
