@@ -173,7 +173,7 @@ RECENT_ARTICLES_COUNT = 15
 COMMENTS_INTRO = u'So what do you think? Did I miss something? Is any part unclear? Leave your comments below.'
 SITE_LICENSE = u'Copyright &copy; 2013-2014 <a href="http://seisman.info"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"> SeisMan</span></a>. All Rights Reserved.'
 SITE_DESCRIPTION = u'关注和分享地震学相关知识、软件、代码。'
-SITESUBTITLE = u'学会整理自己的经验是科研的第一步。'
+SITE_SUBTITLE = u'学会整理自己的经验是科研的第一步。'
 USE_SHORTCUT_ICONS = True
 #LANDING_PAGE_ABOUT
 #PROJECTS
